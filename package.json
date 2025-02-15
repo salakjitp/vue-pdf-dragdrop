@@ -1,0 +1,41 @@
+{
+  "name": "vue-pdf-dragdrop",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Salakjit P.",
+  "keywords": [
+    "vite",
+    "pinia",
+    "pdfjs",
+    "pdf-lib",
+    "interactjs",
+    "downloadjs",
+    "dragdrop",
+    "tailwindcss"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pinia": "^2.3.1",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.6",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "autoprefixer": "^10.4.20",
+    "downloadjs": "^1.4.7",
+    "interactjs": "^1.10.27",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^4.10.38",
+    "postcss": "^8.4.38",
+    "sass-embedded": "^1.83.4",
+    "tailwindcss": "^4.0.6",
+    "uuid": "^11.0.5",
+    "vite": "^6.0.11",
+    "vite-plugin-vue-devtools": "^7.7.0"
+  }
+}
