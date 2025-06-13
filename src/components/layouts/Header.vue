@@ -9,7 +9,7 @@ const isActiveLink = (routePath) => {
 </script>
 
 <template>
-  <nav class="bg-green-700 border-b border-green-500">
+  <nav class="bg-linear-to-t from-indigo-400 to-indigo-200">
     <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
       <div class="flex h-20 items-center justify-between">
         <div
@@ -18,7 +18,7 @@ const isActiveLink = (routePath) => {
           <!-- Logo -->
           <RouterLink class="flex flex-shrink-0 items-center mr-4" to="/">
             <img class="h-10 w-auto" :src="logo" alt="Vue Drag&Drop (Demo)" />
-            <span class="hidden md:block text-white text-2xl font-bold ml-2"
+            <span class="hidden md:block text-black text-2xl font-bold ml-2"
               >Vue Drag&Drop (Demo)</span
             >
           </RouterLink>

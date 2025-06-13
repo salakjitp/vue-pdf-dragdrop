@@ -36,6 +36,8 @@ module.exports = {
         gray: colors.coolGray,
         slate: colors.blueGray,
         'anchor-blue': '#2563eb',
+        theme1: '#C0CFFE',
+        theme2: '#7583B3',
       },
     },
   },
